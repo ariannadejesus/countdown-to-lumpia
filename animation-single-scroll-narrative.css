@@ -1,0 +1,77 @@
+.letsgo{
+	animation-name: letsgo;
+	animation-duration: 7s;
+}
+
+@keyframes letsgo {
+	0% {opacity: 0;}
+	100% {opacity: 100;}
+}
+
+
+.car { 
+    left: 100%;
+    top: 0px;
+    -webkit-animation: moveToLeft 10s linear infinite;
+    animation: moveToLeft 10s linear infinite;
+}
+
+@-webkit-keyframes moveToLeft {
+    from {left: 100%;}
+    to {left: 0%;}
+}
+
+@keyframes moveToLeft {
+    from {right: 100%;}
+    to {left: 0%;}
+}
+
+.mom-daughter { 
+    right: 100%;
+    top: 0px;
+    -webkit-animation: moveToRight 20s linear infinite;
+    animation: moveToRight 20s linear infinite;
+}
+
+@-webkit-keyframes moveToRight {
+    from {right: 100%;}
+    to {right: 0%;}
+}
+
+@keyframes moveToRight {
+    from {right: 100%;}
+    to {right: 0%;}
+}
+
+.words1{
+	animation-name: words1;
+	animation-duration: 10s;
+}
+
+@keyframes words1 {
+	0% {opacity: 0;}
+	100% {opacity: 100;}
+}
+
+.words2{
+	animation-name: words2;
+	animation-duration: 10s;
+}
+
+@keyframes words2 {
+	0% {opacity: 0;}
+	50% {opacity: 0}
+	100% {opacity: 100;}
+}
+
+.letseat{
+	animation-name: letseat;
+	animation-duration: 10s;
+}
+
+@keyframes letseat {
+	0% {opacity: 0;}
+	50% {opacity: 0}
+	100% {opacity: 100;}
+}
+

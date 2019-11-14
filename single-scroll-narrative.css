@@ -1,0 +1,237 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+header, section {
+	width:100vw;
+	height:100vh;
+  background-size: cover;
+}
+
+nav {
+  position: fixed;
+  top:35vh;
+  right:5vw;
+}
+
+ul{
+  list-style-type: none;
+}
+
+figure {
+  width:2vw;
+  height: 2vw;
+  border:0.2vh solid white;
+  background-color: white;
+  border-radius:50%;
+  margin-bottom: 1vw;
+}
+
+figure:hover {}
+
+h1 {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 350%;
+	color: #a51414;
+	text-align: center;
+  padding: 15vh;
+}
+
+h1 {
+  transition: transform 3s;
+  -moz-transition: transform 3s;
+  -ms-transition: transform 3s;
+  -webkit-transition: transform 3s;
+  -o-transition: transform 3s; 
+}
+h1:hover{
+  transform:scale(1.25);
+  -moz-transform:scale(1.25);
+  -ms-transform:scale(1.25);
+  -o-transform:scale(1.25);
+  -webkit-transform:scale(1.25);
+}
+
+#two h2 {
+  font-family:'Josefin Sans', sans-serif;
+  font-size:290%;
+  color: #a51414;
+  text-align: left;
+  padding: 10vh;
+  padding-top: 75vh
+}
+
+#six h1 {
+  font-family:'Josefin Sans', sans-serif;
+  font-size:350%;
+  color: #a51414;
+  text-align: center;
+  padding-top: 80vh
+}
+
+#seven h2 {
+  font-family:'Josefin Sans', sans-serif;
+  font-size:150%;
+  color: #a51414;
+  text-align: left;
+  padding: 10vh;
+  padding-top: 65vh
+}
+
+#eight h2 {
+  font-family:'Josefin Sans', sans-serif;
+  font-size:150%;
+  color: #a51414;
+  text-align: right;
+  padding: 20vh;
+  padding-top: 65vh
+}
+
+#nine h2 {
+  font-family:'Josefin Sans', sans-serif;
+  font-size:200%;
+  color: #a51414;
+  text-align: right;
+  padding: 30vh;
+  padding-top: 30vh
+}
+
+#ten h2 {
+  font-family:'Josefin Sans', sans-serif;
+  font-size:250%;
+  color: white;
+  text-align: right;
+  padding: 31vh;
+  padding-top: 55vh
+}
+
+#twelve h3 {
+  font-family:'Josefin Sans', sans-serif;
+  font-size:290%;
+  color: #a51414;
+  text-align: left;
+  padding: 20vh;
+  padding-top: 55vh
+}
+
+h3 {
+  transition: transform 3s;
+  -moz-transition: transform 3s;
+  -ms-transition: transform 3s;
+  -webkit-transition: transform 3s;
+  -o-transition: transform 3s; 
+}
+h3:hover{
+  transform:scale(1.25);
+  -moz-transform:scale(1.25);
+  -ms-transform:scale(1.25);
+  -o-transform:scale(1.25);
+  -webkit-transform:scale(1.25);
+}
+
+/*CLASSES*/
+.house {
+  background-image: url("../img/single-scroll-narrative-01.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+} 
+
+.driveway{
+  background-image: url("../img/single-scroll-narrative-02.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.road{
+  background-image: url("../img/single-scroll-narrative-04.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.market{
+  background-image: url("../img/single-scroll-narrative-05.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.road2{
+  background-image: url("../img/single-scroll-narrative-06.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.road3{
+  background-image: url("../img/single-scroll-narrative-07.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.veggies1{
+  background-image: url("../img/single-scroll-narrative-08.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.mixture{
+  background-image: url("../img/single-scroll-narrative-09.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.roll{
+  background-image: url("../img/single-scroll-narrative-10.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.stove1{
+  background-image: url("../img/single-scroll-narrative-11.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.stove2{
+  background-image: url("../img/single-scroll-narrative-12.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.transition1{
+  background-image: url("../img/single-scroll-narrative-13.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.transition2{
+  background-image: url("../img/single-scroll-narrative-14.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.dinnertable1{
+  background-image: url("../img/single-scroll-narrative-15.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.dinnertable2{
+  background-image: url("../img/single-scroll-narrative-16.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
